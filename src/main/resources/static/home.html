@@ -1,0 +1,11 @@
+<h1>Greeting</h1>
+<div ng-show="authenticated">
+    <p>The event ID :  {{controller.events.id}}</p>
+    <p>The event Name  : {{controller.events.name}}</p>
+    <p>The event description :  {{controller.events.description}}</p>
+    <p>The event venue :  {{controller.events.venue}}</p>
+    <p>The date :  {{controller.events.date}}</p>
+</div>
+<div  ng-show="!authenticated">
+    <p>Login to see your greeting</p>
+</div>
